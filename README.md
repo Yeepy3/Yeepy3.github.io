@@ -1,2 +1,1 @@
-# ybchoi_site
-personal website
+### Hello, welcome to [Yubin Choi's personal website 🌐](https://yeepy3.github.io/)
