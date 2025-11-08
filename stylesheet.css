@@ -109,10 +109,35 @@ h2 {
   font-size: 32px;
 }
 
+.thumbnail-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
 .one {
-  width: 160px;
-  height: 160px;
+  width: 100%;
+  max-width: 220px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.one img,
+.one object {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.thumb-3-2,
+.thumb-16-9 {
+  aspect-ratio: auto;
 }
 
 .two {
@@ -135,7 +160,7 @@ span.highlight {
 }
 
 .colored-box {
-    color: black;
+    color: white;
     padding: 20px;
     display: inline-block;
     border-radius: 10px;

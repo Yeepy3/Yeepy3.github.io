@@ -7,7 +7,7 @@
 
     <meta name="author" content="Yubin Choi">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
   </head>
@@ -22,23 +22,28 @@
                 <p class="name" style="text-align: center;">
                   Yubin Choi
                 </p>
+
                 <p>
-    I'm an ECE master student at <a href="https://ece.snu.ac.kr/en">SNU (Seoul National University)</a> in South Korea, advised by  <a href="https://sites.google.com/netlab.snu.ac.kr/netlabhome/people/faculty">Prof.Saewoong Bahk</a>.
-    I obtained my EEE B.S at <a href="https://ee.yonsei.ac.kr/ee_en/index.do">Yonsei University</a>, South Korea. Currently, I'm looking for Ph.D degree program.
+                I'm an M.S. student in Electrical and Computer Engineering at 
+                <a href="https://ece.snu.ac.kr/en">Seoul National University (SNU)</a>, South Korea, 
+                advised by <a href="https://sites.google.com/netlab.snu.ac.kr/netlabhome/people/faculty">Prof. Saewoong Bahk</a>. 
+                I received my B.S. degree in Electrical and Electronic Engineering from 
+                <a href="https://ee.yonsei.ac.kr/ee_en/index.do">Yonsei University</a>, South Korea. 
+                I am currently seeking opportunities to pursue a Ph.D. program.
                 </p>
-    <!-- reserach interest -->
-    My research interest is in communication system including wireless communication and network design, and AI-based ISAC, communication design.
-    <!-- what i did at master -->
-    During master, I focus on real-world communication system including power-line communication and drone based communincation. Also, focus on wireless communication with neural network based CSI feedback system.
-     
-
-
+  
+                <p>
+                <!-- At Yonsei, I built MEC-driven systems linking computer vision, robotics, and communication to control smart-factory robots. -->
+                At SNU, my research focuses on real-world communication systems, including power-line communication and drone-based communication networks, 
+                as well as neural network–based CSI feedback systems for beyond-5G MIMO beamforming.
+                </p>
+  
 
 
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:ybchoi24@netlab.snu.ac.kr">Email</a> &nbsp;/&nbsp;
-                  <a href="data/YubinChoi-CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="data/YubinChoi_CV.pdf">CV</a> &nbsp;/&nbsp;
                   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
                   <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp; -->
                   <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
@@ -46,7 +51,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/Profile.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/JonBarron.jpg" class="hoverZoomLink"></a>
+                <a href="images/Profile.jpeg"><img style="width:100%;max-width:80%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/Profile.jpeg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -55,7 +60,9 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research Interest</h2>
                 <p>
-                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.
+                Building upon my previous work in communication systems, I aim to explore multimodal integrated sensing and communication (ISAC) as well as human-computer interaction (HCI) and 
+                cyber-physical systems (CPS) for practical applications such as healthcare and wearable devices.
+                  <!-- Some papers are <span class="highlight">highlighted</span>. -->
                 </p>
               </td>
             </tr>
@@ -75,28 +82,16 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-    <tr onmouseout="D2plc_stop()" onmouseover="D2plc_start()"  bgcolor="#ffffd0">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/bolt3d.mp4" type="video/mp4">
-          Your browser does not support the video tag.
 
-          </video></div>
-          <img src='images/bolt3d.jpg' width="160">
+    <!-- <tr bgcolor="#ffffd0"> -->
+      <td style="padding:6px;vertical-align:middle">
+        <div class="one thumb-16-9">
+          <a href="images/Block_diagram.pdf">
+            <img src="images/Block_diagram.jpg" alt="Block diagram of the D2-PLC system">
+          </a>
         </div>
-        <script type="text/javascript">
-          function D2plc_start() {
-            document.getElementById('bolt3d_image').style.opacity = "1";
-          }
-
-          function D2plc_stop() {
-            document.getElementById('bolt3d_image').style.opacity = "0";
-          }
-          D2plc_stop()
-        </script>
       </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
+      <td style="padding:16px;width:80%;vertical-align:middle">
         <a href="https://ieeexplore.ieee.org/document/11127183">
           <span class="papertitle">D<sup>2</sup>-PLC: Holistic Design and Implementation of High-Datarate Duplex DC Power Line Communication Network</span>
         </a>
@@ -115,12 +110,16 @@
         High-datarate duplex DC power line communication system with a custom MAC protocol to enable simultaneous power and data transfer over a single pair of wires.
         </p>
       </td>
-    </tr>
+    <!-- </tr> -->
+
+
 
     <tr onmouseout="plc_icnp_stop()" onmouseover="plc_icnp_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <img src='images/circuit.pdf' width=100%>
+      <td class="thumbnail-cell" style="padding:16px;vertical-align:middle">
+        <div class="one thumb-16-9">
+          <a href="images/circuit.pdf">
+            <img src="images/circuit.jpg" alt="Programmable DC-PLC hardware nodes">
+          </a>
         </div>
         <script type="text/javascript">
           function plc_icnp_start() {
@@ -144,7 +143,7 @@
         <strong>Yubin Choi</strong>,
         <a href="https://sites.google.com/netlab.snu.ac.kr/netlabhome/people/faculty">Saewoong Bahk</a>
 				<br>
-        <em>IEEE ICNP</em>, 2025
+        <em>IEEE International Conference on Network Protocols (ICNP)</em>, 2025
         <br>
         <p></p>
         <p>
@@ -155,9 +154,11 @@
 
 
     <!-- <tr bgcolor="#ffffd0"> -->
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <img src='images/ICTC_fig_1.pdf' width="160">
+      <td class="thumbnail-cell" style="padding:16px;vertical-align:middle">
+        <div class="one thumb-16-9">
+          <a href="images/ICTC_fig_1.pdf">
+            <img src="images/ICTC_fig_1.jpg" alt="Variable-rate quantizer diagram for CSI feedback">
+          </a>
         </div>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
@@ -170,7 +171,7 @@
         <a href="https://scholar.google.co.kr/citations?user=gJ9_xskAAAAJ&hl=ko&oi=ao">Yunseo Nam</a>,
         <a href="https://sites.google.com/netlab.snu.ac.kr/netlabhome/people/faculty">Saewoong Bahk</a>
         <br>
-        <em>ICTC</em>, 2025 &nbsp <font color="black"><strong>(Oral Presentation)</strong></font>
+        <em>International Conference on ICT Convergence (ICTC)</em>, 2025 &nbsp <font color="black"><strong>(Oral Presentation)</strong></font>
         <br>
         <p></p>
         <p>
