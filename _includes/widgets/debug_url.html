@@ -15,9 +15,11 @@
 
 <script>
 striped_pathname = location.pathname.replace(/\/+$/, "");
+{% if site.baseurl != "" %}
 if(striped_pathname != "{{ site.baseurl }}"){
     document.getElementById("url-debug-message").classList.remove('d-none');
 }
+{% endif %}
 document.querySelectorAll(".root-path-text").forEach(function(element){
     element.textContent = striped_pathname;
 });
