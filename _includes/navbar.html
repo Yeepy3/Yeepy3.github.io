@@ -8,9 +8,15 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 {% for item in site.data.navigation.pages %}
-                <li class="nav-item {% if item.name == page.navbar_title %}active{% endif %}">
-                    <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
-                </li>
+                {% if item.name == "Home (Layout 2)" %}
+                    {% comment %}
+                    모든 페이지에서 Layout 2 전환 링크를 숨깁니다.
+                    {% endcomment %}
+                {% else %}
+                    <li class="nav-item {% if item.name == page.navbar_title %}active{% endif %}">
+                        <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                    </li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>

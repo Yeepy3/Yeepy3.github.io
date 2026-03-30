@@ -1,61 +1,71 @@
-primary_name: "Your Name"
-secondary_name: ""
-navbar_name: "Your Name"
+primary_name: "Yubin Choi"
+secondary_name: "You-Bin Choi"
+navbar_name: "Yubin Choi"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: Pre-doctoral Researcher
+- name: INMC, SNU
+  logo: /assets/images/badges/snu_logo.png  # Logo is optional
 
 
-email: "your@email.com"
+email: "ybchoi24@netlab.snu.ac.kr"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+gscholar: CZK0RvQAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: Yubin-OP
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
+linkedin: yubin-choi-20337b2b3
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a pre-doctoral researcher at the <a href="https://inmc.snu.ac.kr/en/">Institute of New Media and Communications (INMC)</a>,
+    <a href="https://en.snu.ac.kr/">Seoul National University (SNU)</a>. 
+    I will start my Ph.D. journey in Sep. 2026 at the <a href="https://www.ucr.edu/">University of California, Riverside</a>,
+    in the Department of Electrical and Computer Engineering (ECE),
+    advised by <a href="https://hangqiu.github.io/">Prof. Hang Qiu</a> (<a href="https://cisl.ucr.edu/">CISL</a>)
+    and <a href="https://cs.ucr.edu/~ztan/">Prof. Zhaowei Tan</a>.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    My research focuses on AI-driven communications and networking for Cyber-Physical Systems (CPS), with an emphasis on cooperative autonomous driving and robotics. 
+    I design resilient, low-latency edge computing systems that empower the next generation of autonomous agents.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/Profile.jpeg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: Seoul National University
+  logo: /assets/images/badges/snu_logo.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+    M.S. in Electrical Engineering and Computer Engineering
+  date: Mar. 2024 - Feb. 2026
+- name: Yonsei University
+  logo: /assets/images/badges/yonsei_logo.png
+  position: B.S. in Electrical and Electronic Engineering
+  date: Mar. 2021 - Feb. 2024
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Yonsei University
+  logo: /assets/images/badges/yonsei_logo.png
+  position: Research Intern
+  date: Jan. 2023 - Jun. 2023
+- name: National Fire Agency
+  logo: /assets/images/badges/fire_agency_logo.png
+  position: Conscripted Firefighter
+  date: Aug. 2019 - Apr. 2021
+- name: Olympic Broadcasting Service
+  logo: /assets/images/badges/obs_logo.png
+  position: Broadcasting Assistant
+  date: Jan. 2018 - Mar. 2018
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
