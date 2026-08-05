@@ -8,7 +8,7 @@ positions:
   logo: /assets/images/badges/snu_logo.png  # Logo is optional
 
 
-email: "ybchoi24@netlab.snu.ac.kr"
+email: "ychoi149@ucr.edu"
 # cv_link: link-to-your-cv-file
 gscholar: CZK0RvQAAAAJ&hl  # This is an example, replace it with your own Google Scholar ID
 github: Yubin-OP
@@ -49,18 +49,19 @@ education:
   date: Mar. 2021 - Feb. 2024
 
 experience:
-- name: Yonsei University
-  logo: /assets/images/badges/yonsei_logo.png
-  position: Research Intern
-  date: Jan. 2023 - Jun. 2023
-- name: National Fire Agency
-  logo: /assets/images/badges/fire_agency_logo.png
-  position: Conscripted Firefighter
-  date: Aug. 2019 - Apr. 2021
-- name: Olympic Broadcasting Service
-  logo: /assets/images/badges/obs_logo.png
-  position: Broadcasting Assistant
-  date: Jan. 2018 - Mar. 2018
+- name: 3GPP RAN3 Delegate
+  logo: /assets/images/badges/3gpp_logo.png
+  position: 
+    Contributed to 6G RAN architecture standardization at TSG-RAN WG3 Meeting
+  date: May. 2026 - Jun. 2026
+# - name: National Fire Agency
+#   logo: /assets/images/badges/fire_agency_logo.png
+#   position: Conscripted Firefighter
+#   date: Aug. 2019 - Apr. 2021
+# - name: Olympic Broadcasting Service
+#   logo: /assets/images/badges/obs_logo.png
+#   position: Broadcasting Assistant
+#   date: Jan. 2018 - Mar. 2018
 
 # awards:
 # - name: Award Name 2
