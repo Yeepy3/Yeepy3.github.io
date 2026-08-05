@@ -1,4 +1,5 @@
 ---
+title_link: "https://ieeexplore.ieee.org/document/11192329"
 title:          "Demo: A Programmable High-Throughput Duplex DC-PLC Testbed for
     Power and Data Integration"
 date:           2025-9-2 14:59:00

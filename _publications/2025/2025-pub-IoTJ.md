@@ -1,4 +1,5 @@
 ---
+title_link: "https://ieeexplore.ieee.org/document/11127183"
 title:          "<em>D<sup>2</sup>-PLC</em>: Holistic Design and Implementation of High-Datarate Duplex DC Power Line Communication Network"
 date:           2025-8-12 10:02:00
 selected:       true
